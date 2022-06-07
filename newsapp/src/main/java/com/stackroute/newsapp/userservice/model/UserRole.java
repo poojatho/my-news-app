@@ -13,12 +13,13 @@ public class UserRole {
     @ManyToOne(fetch =FetchType.EAGER)
     private User user;
 
-    @ManyToOne
+    @ManyToOne()
     private Role role;
 
    public UserRole(){
 
    }
+
 
     public long getUserRoleId() {
         return userRoleId;
