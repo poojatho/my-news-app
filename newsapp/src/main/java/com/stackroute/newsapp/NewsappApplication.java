@@ -26,14 +26,14 @@ public class NewsappApplication implements CommandLineRunner  {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("starting code");
+//		System.out.println("starting code");
 //
 //		User user = new User();
 //
 //
 //		user.setFirstName("Sarbeswar");
 //		user.setLastName("Swain");
-//		user.setUsername("Sarbe77");
+//		user.setUsername("Sarbe7");
 //		user.setPassword("abcd");
 //		user.setEmail("sarbeswar1999@gmail.com");
 //
