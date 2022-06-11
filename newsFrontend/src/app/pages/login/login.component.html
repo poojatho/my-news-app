@@ -9,12 +9,14 @@
                 </div>
 
                 <h1 class="text-center">Login Here!!</h1>
-
-                <form action="">
+                
+                <form (ngSubmit)=" formSubmit()">
                     <mat-form-field class="full-width" appearance="outline">
                         <mat-label>Username</mat-label>
                         <input 
                         required
+                        [(ngModel)]="user.username"
+                        name="username"
                         matInput placeholder="Enter here"
                         />
                         <mat-hint>Valid Username</mat-hint>
@@ -25,7 +27,9 @@
                         <mat-label>User Password</mat-label>
                         <input 
                         required
-                        type="password" 
+                        [(ngModel)]="user.password"
+                        name="password"
+                        type="password"
                         matInput placeholder="Enter here"
                         />
                         <!-- <mat-hint>Hint</mat-hint> -->
