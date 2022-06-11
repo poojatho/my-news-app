@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { Router } from '@angular/router';
 import { UserService } from 'src/app/services/user.service';
 import Swal from 'sweetalert2';
 
@@ -8,10 +9,11 @@ import Swal from 'sweetalert2';
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
+
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private userService:UserService, private snack:MatSnackBar) { }
+  constructor(private userService:UserService, private snack:MatSnackBar, private router:Router) { }
 
   public user={
     username: '',
@@ -40,7 +42,10 @@ export class LoginComponent implements OnInit {
         //success
         console.log(data);
         //alert('success');
-        Swal.fire('Successfully done!!', 'User is signed in','success')
+        this.userService.getLoggedinUser(data.token, this.user.username).subscribe({next: (data)=>{
+          this.router.navigateByUrl("/")
+        }})
+        //Swal.fire('Successfully done!!', 'User is signed in','success')
       },
       (error)=>{
         console.log(error);
