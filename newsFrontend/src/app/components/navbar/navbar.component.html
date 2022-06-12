@@ -11,8 +11,9 @@
   </a>
   <span>News</span>
   <span class="example-spacer"></span>
-  <a 
 
+  <a 
+  *ngIf="!user"
     [routerLink]="'/login'"
     mat-icon-button 
     class="example-icon favorite-icon" 
@@ -21,7 +22,7 @@
     Login
   </a>
   <a 
-
+  *ngIf="!user"
     [routerLink]="'/signup'"
     mat-icon-button
     class="example-icon favorite-icon mr20 ml20" 
@@ -29,6 +30,10 @@
   >
     Signup
   </a>
+  <a *ngIf="user"   mat-icon-button
+  class="example-icon favorite-icon mr20 ml20" >{{user.firstName}}</a>
+  <button *ngIf="user"  mat-icon-button
+  class="example-icon favorite-icon mr20 ml20"  (click)="logout()">Logout</button>
   <!-- <button 
     mat-icon-button 
     class="example-icon" 
