@@ -34,8 +34,18 @@ export class LoginComponent implements OnInit {
       })
       return;
     }
+    if(this.user.password=='' || this.user.password == null){
+      //alert('User is required');
+      this.snack.open("Password is required",'',{
+        duration:3000,
+        // verticalPosition:'top',
+        // horizontalPosition:'right',
+      })
+      return;
+    }
 
-    //addUser: userservice
+
+    /////////addUser: userservice
 
     this.userService.signin(this.user).subscribe(
       (data)=>{
