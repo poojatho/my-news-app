@@ -48,9 +48,9 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter
 
     //for testing
     @Bean
-    public PasswordEncoder passwordEncoder()
+    public BCryptPasswordEncoder passwordEncoder()
     {
-        return NoOpPasswordEncoder.getInstance();
+        return new BCryptPasswordEncoder();
     }
 
 

@@ -19,7 +19,10 @@ import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {from} from 'rxjs';
-
+import { ProfileComponent } from './pages/profile/profile.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import {from} from 'rxjs';
     FooterComponent,
     SignupComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    ProfileComponent,
+    DashboardComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -43,6 +49,8 @@ import {from} from 'rxjs';
     MatCardModule,
     MatIconModule,
     MatToolbarModule,
+    MatSidenavModule,
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
