@@ -29,7 +29,7 @@ public class NewsappApplication implements CommandLineRunner  {
 
 		System.out.println("starting code");
 
-		User user = new User();
+		//User user = new User();
 
 
 		// user.setFirstName("Sarbeswar");
