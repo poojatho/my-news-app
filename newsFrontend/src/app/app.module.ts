@@ -23,6 +23,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+import { FavouriteComponent } from './pages/favourite/favourite.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,7 @@ import {MatDividerModule} from '@angular/material/divider';
     HomeComponent,
     ProfileComponent,
     DashboardComponent,
+    FavouriteComponent,
    
   ],
   imports: [
@@ -51,6 +54,7 @@ import {MatDividerModule} from '@angular/material/divider';
     MatToolbarModule,
     MatSidenavModule,
     MatDividerModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

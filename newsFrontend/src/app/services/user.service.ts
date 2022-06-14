@@ -61,4 +61,10 @@ export class UserService {
     return true;
    }
 
+   ///to see Favourites
+   favourite(user:any){
+    return this.http.post(`${baseUrl}/favourite` , user)
+    
+   }
+
 }

@@ -6,8 +6,8 @@
     <mat-icon *ngIf="sidenav.opened">
       close
     </mat-icon>
-  </button> -->
-  
+  </button>
+   -->
   <a 
     routerLink="/"
     mat-icon-button 
@@ -37,8 +37,18 @@
   >
     Signup
   </a>
+
   <a *ngIf="user"   mat-icon-button
   class="example-icon favorite-icon mr20 ml20" >{{user.firstName }}</a>
+  <a 
+  *ngIf="user"
+    [routerLink]="'/favourite'"
+    mat-icon-button
+    class="example-icon favorite-icon mr20 ml20" 
+    aria-label="Example icon-button with heart icon"
+  >
+    Tops
+  </a>
   <button *ngIf="user"  mat-icon-button
   class="example-icon favorite-icon mr20 ml20"  (click)="logout()">Logout</button>
   <!-- <button 
