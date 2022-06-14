@@ -1,5 +1,7 @@
 package com.stackroute.newsapp.userservice.service.impl;
 
+import com.stackroute.newsapp.userservice.helper.UserFoundException;
+import com.stackroute.newsapp.userservice.helper.UserNotFoundException;
 import com.stackroute.newsapp.userservice.model.User;
 import com.stackroute.newsapp.userservice.model.UserRole;
 import com.stackroute.newsapp.userservice.repository.RoleRepository;
@@ -26,7 +28,7 @@ public class UserServiceImpl implements UserService {
         User local = this.userRepository.findByUsername(user.getUsername());
         if (local != null) {
             System.out.println("User is already there !!");
-            throw new Exception("User is already present !!");
+            throw new UserFoundException();
         } else {
             //user create
             for (UserRole ur : userRoles) {

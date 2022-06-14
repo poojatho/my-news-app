@@ -3,6 +3,7 @@ package com.stackroute.newsapp.userservice.controller;
 
 import antlr.Token;
 import com.stackroute.newsapp.userservice.config.JwtUtils;
+import com.stackroute.newsapp.userservice.helper.UserNotFoundException;
 import com.stackroute.newsapp.userservice.model.JwtRequest;
 import com.stackroute.newsapp.userservice.model.JwtResponse;
 import com.stackroute.newsapp.userservice.service.impl.UserDetailsServiceImpl;
@@ -42,9 +43,9 @@ public class AuthenticateController {
 
             authenticate(jwtRequest.getUsername(), jwtRequest.getPassword());
 
-        } catch (UsernameNotFoundException e) {
+        } catch (UserNotFoundException e) {
             e.printStackTrace();
-            throw new Exception("User nt found");
+            throw new Exception("User not found");
         }
 
         ///////////authenticate user

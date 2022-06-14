@@ -1,12 +1,16 @@
 package com.stackroute.newsapp.userservice.controller;
 
 
+import com.stackroute.newsapp.userservice.helper.UserFoundException;
+import com.stackroute.newsapp.userservice.helper.UserNotFoundException;
 import com.stackroute.newsapp.userservice.model.Role;
 import com.stackroute.newsapp.userservice.model.User;
 import com.stackroute.newsapp.userservice.model.UserRole;
 import com.stackroute.newsapp.userservice.repository.UserRepository;
 import com.stackroute.newsapp.userservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashSet;
@@ -20,9 +24,14 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private BCryptPasswordEncoder bCryptPasswordEncoder;
+
     //creating user
     @PostMapping("/")
     public User createUser(@RequestBody User user) throws Exception {
+//Encoding password with BcryptPasswordEncoder
+        user.setPassword(this.bCryptPasswordEncoder.encode(user.getPassword()));
 
         Set<UserRole> roles= new HashSet<>();
 
@@ -52,5 +61,11 @@ public class UserController {
         this.userService.deleteUser(userId);
     }
     //update api
+
+
+//    @ExceptionHandler(UserFoundException.class)
+//    public ResponseEntity<?> exceptionHandler(UserFoundException ex){
+//        return ResponseEntity;
+//    }
 
 }

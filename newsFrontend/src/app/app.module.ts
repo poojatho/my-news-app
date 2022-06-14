@@ -19,7 +19,13 @@ import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {from} from 'rxjs';
-
+import { ProfileComponent } from './pages/profile/profile.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatDividerModule} from '@angular/material/divider';
+import {NewsapiService} from './services/newsapi.service';
+import { TechComponent } from './pages/tech/tech.component';
+import { FavouritesComponent } from './pages/favourites/favourites.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +34,12 @@ import {from} from 'rxjs';
     FooterComponent,
     SignupComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    ProfileComponent,
+    DashboardComponent,
+    TechComponent,
+    FavouritesComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -43,8 +54,10 @@ import {from} from 'rxjs';
     MatCardModule,
     MatIconModule,
     MatToolbarModule,
+    MatSidenavModule,
+    MatDividerModule,
   ],
-  providers: [],
+  providers: [NewsapiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
