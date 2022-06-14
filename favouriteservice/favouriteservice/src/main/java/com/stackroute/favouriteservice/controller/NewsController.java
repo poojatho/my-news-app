@@ -24,9 +24,10 @@ import com.stackroute.favouriteservice.service.NewsService;
 
 import io.jsonwebtoken.Jwts;
 
-@CrossOrigin(origins="http://localhost:4200")
+
 @RestController
 @RequestMapping(path = "/api/news")
+@CrossOrigin("*")
 public class NewsController 
 {
 	
@@ -80,13 +81,13 @@ public class NewsController
 	
 
 	
-	@GetMapping
-	public ResponseEntity<?> getMyFavouriteNews(HttpServletRequest request, HttpServletResponse response)
+	@GetMapping("/{userName}")
+	public ResponseEntity<?> getMyFavouriteNews(@PathVariable("userName") String userName, HttpServletRequest request, HttpServletResponse response)
 	{
 		ResponseEntity<?> responseEntity;
 		try
 		{
-			List<News> newsList = newsService.getNews(this.getToken(request));
+			List<News> newsList = newsService.getNews(userName);
 			responseEntity = new ResponseEntity<List<News>>(newsList,HttpStatus.OK);
 		}
 		catch(NewsNotFoundException e)
