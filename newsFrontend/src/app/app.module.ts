@@ -24,7 +24,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatDividerModule} from '@angular/material/divider';
 import {NewsapiService} from './services/newsapi.service';
-import { TechComponent } from './pages/tech/tech.component';
+
 import { FavouritesComponent } from './pages/favourites/favourites.component';
 
 @NgModule({
@@ -37,7 +37,7 @@ import { FavouritesComponent } from './pages/favourites/favourites.component';
     HomeComponent,
     ProfileComponent,
     DashboardComponent,
-    TechComponent,
+
     FavouritesComponent,
 
   ],

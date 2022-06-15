@@ -14,7 +14,7 @@
 
 
 <div class="container-fluid" style="margin-top: 20px;">
-    <h4>Top Headlines</h4>
+    <h1 class="text-center text-info text-capitalize">{{category ?? "Top"}} Headlines</h1>
     <div class="row" style="margin-top: 20px;">
         <div *ngFor="let newsData of topHeadlinesData" class="col-lg-3" style="margin-top: 20px; margin-bottom: 20px;" >
             <div class="box">
