@@ -14,17 +14,40 @@ export class FavouritesComponent implements OnInit {
     this.userService.user.subscribe({next:value=>{
       const userName = value.username;
     
-      this.newsService.getFavourite(userName).subscribe({
-        next: data=>{
-       
-          this.favouriteNews = data;
-        }
-      })
+     this.getFavourite(value.username)
     }})
 
    }
 
   ngOnInit(): void {
+
+  }
+
+getFavourite(userName: string){
+  this.newsService.getFavourite(userName).subscribe({
+    next: data=>{
+
+      this.favouriteNews = data;
+    }, error: err=>{
+      this.favouriteNews = [];
+    }
+  })
+}
+
+  deleteFavourite(news:any){
+    console.log(news);
+    this.newsService.deleteFavourite(news.id).subscribe({
+      next: ()=>{
+     
+        alert("Favourite has deleted");
+        this.getFavourite(news.userId)
+      },
+      error: err=>{
+        alert("Favourite has deleted");
+        this.getFavourite(news.userId)
+      }
+    })
+
   }
 
 }

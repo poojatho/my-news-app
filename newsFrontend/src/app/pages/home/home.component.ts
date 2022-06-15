@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { IFavouriteNews, NewsapiService } from 'src/app/services/newsapi.service';
 import { UserService } from 'src/app/services/user.service';
 
@@ -9,20 +10,30 @@ import { UserService } from 'src/app/services/user.service';
 })
 export class HomeComponent implements OnInit {
   user:any;
+  category:any;
 
-  constructor(private userService:UserService,private api:NewsapiService) {
-    this.userService.user.subscribe({next:(data)=>{this.user=data;console.log(data)}})
+  constructor(private userService:UserService,private api:NewsapiService, private routeSanapShot: ActivatedRoute) {
+    
+    this.userService.user.subscribe({next:(data)=>{
+      this.user=data
+      this.routeSanapShot.params.subscribe(data=>{
+        console.log(data)
+        this.category = data["category"]
+        this.api.tcHeadlines(data["category"]).subscribe((result)=>{
+          console.log(result.articles);
+          this.topHeadlinesData=result.articles;
+          
+        })
+      })
+    
+    }})
    }
 
    //display headlines data
    public topHeadlinesData:any=[];
    
   ngOnInit(): void {
-    this.api.tcHeadlines().subscribe((result)=>{
-      console.log(result.articles);
-      this.topHeadlinesData=result.articles;
-      
-    })
+   
   }
 
 

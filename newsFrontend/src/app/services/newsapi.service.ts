@@ -20,26 +20,20 @@ export class NewsapiService {
 
   constructor(private _http:HttpClient) { }
 
-  //top headlines api url
-  topHeadlineNews='https://newsapi.org/v2/top-headlines?country=in&apiKey=491c4d4ae7ce497985f111057abbf0ec';
+  private _newsApiBaseURL="http://localhost:8082/news"
 
-  //Tech News api url
-  techNews='https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=491c4d4ae7ce497985f111057abbf0ec';
-
+ 
+///favourite url
   url='http://localhost:8081/api/news';
   
 
-  tcHeadlines():Observable<any>{
-    return this._http.get(this.topHeadlineNews)
+  tcHeadlines(category:string):Observable<any>{
+    let cat = category
+    if(!category) cat="all"
+    return this._http.get(`${this._newsApiBaseURL}/${cat}`)
   }
 
-  //For tecnical news
 
-  tcTechNews():Observable<any>{
-    return this._http.get(this.techNews)
-
-
-  }
 
   getFavourite(user:string){
     return this._http.get(`${this.url}/${user}`)
@@ -48,6 +42,11 @@ export class NewsapiService {
 
   addFavourites(data: IFavouriteNews){
     return this._http.post(`${this.url}`, data)
+  }
+  
+  deleteFavourite(id:number){
+    return this._http.delete(`${this.url}/${id}`)
+
   }
 
 }
