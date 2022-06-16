@@ -30,8 +30,6 @@ import io.jsonwebtoken.Jwts;
 @CrossOrigin("*")
 public class NewsController 
 {
-	
-	
 	@Autowired
 	private NewsService newsService;
 	

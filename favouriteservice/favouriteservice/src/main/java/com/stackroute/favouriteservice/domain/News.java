@@ -1,20 +1,23 @@
 package com.stackroute.favouriteservice.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+//import javax.persistence.Column;
+//import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.GenerationType;
+//import javax.persistence.Id;
+//import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
-@Entity
-@Table
+@Document("news")
+// @Table
 public class News 
 {
 	@Id
-	@Column(name="id")
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	// @Column(name="id")
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
 	private String userId;
