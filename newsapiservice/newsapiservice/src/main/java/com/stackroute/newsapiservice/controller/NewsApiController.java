@@ -1,5 +1,9 @@
 package com.stackroute.newsapiservice.controller;
 
+import com.stackroute.newsapiservice.model.News;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -11,6 +15,12 @@ import java.util.List;
 @RequestMapping("/news")
 @CrossOrigin("*")
 public class NewsApiController {
+    private final Environment env;
+
+    NewsApiController(Environment env) {
+        this.env = env;
+    }
+
 
     @GetMapping()
     public String helloWorld(){
@@ -18,12 +28,14 @@ public class NewsApiController {
     }
 
     @GetMapping("/{category}")
-    public Object getNews(@PathVariable("category") String category) {
+    public ResponseEntity<News> getNews(@PathVariable("category") String category) {
+
+
         if(category.equals("all")) category="";
-        String url="https://newsapi.org/v2/top-headlines?country=in&apiKey=491c4d4ae7ce497985f111057abbf0ec&category="+category;
+        String url="https://newsapi.org/v2/top-headlines?country=in&apiKey="+env.getProperty("NEWS_API_KEY")+"&category="+category;
         RestTemplate restTemplate = new RestTemplate();
-        Object news = restTemplate.getForObject(url, Object.class);
-        return news;
+        News news = restTemplate.getForObject(url,News.class);
+        return new ResponseEntity<>(news, HttpStatus.OK);
 
     }
 
