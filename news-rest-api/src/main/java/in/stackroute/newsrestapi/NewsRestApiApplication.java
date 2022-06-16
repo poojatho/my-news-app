@@ -1,14 +1,13 @@
-package com.stackroute.newsapiservice;
+package in.stackroute.newsrestapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NewsapiserviceApplication {
+public class NewsRestApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NewsapiserviceApplication.class, args);
-		System.out.println("Code started :");
+		SpringApplication.run(NewsRestApiApplication.class, args);
 	}
 
 }

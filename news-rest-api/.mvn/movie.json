@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Joe Wallace, Akane Otani, Vicky Ge Huang, Gunjan Banerji, Julia Carpenter, Renae Dyer",
+            "title": "Fed Meeting Live Updates: Investors Expect 0.75-Percentage-Point Interest Rate Rise - The Wall Street Journal",
+            "description": "Full coverage of the Federal Reserve's June meeting and the market reaction.",
+            "url": "https://www.wsj.com/livecoverage/federal-reserve-meeting-interest-rates-june-2022",
+            "urlToImage": "https://images.wsj.net/im-564212/social",
+            "publishedAt": "2022-06-15T16:35:00Z",
+            "content": "Cryptocurrency prices extended their slide ahead of the Federal Reserves interest rate decision on Wednesday.\r\nBitcoin, the largest cryptocurrency, was recently down 3.5% to $21,331, while ether tumb… [+1467 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "2022 U.S. Open picks, odds: Expert predictions, favorites to win from betting field at The Country Club - CBS Sports",
+            "description": "Who will win the 122nd U.S. Open? Our experts dive into all the twists and turns of the year's third major",
+            "url": "https://www.cbssports.com/golf/news/2022-u-s-open-picks-odds-expert-predictions-favorites-to-win-from-betting-field-at-the-country-club/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2022/06/14/2031c9b5-a6c2-4864-b81b-9ea48eff98f7/thumbnail/1200x675/b14070ccbfedcd310ad6b77068782f44/graphic-rorsus.png",
+            "publishedAt": "2022-06-15T16:21:00Z",
+            "content": "The 2022 U.S. Open is fast approaching its start, so everyone in the golf world is left asking one key question: Who are you picking to win at The Country Club in Brookline, Massachusetts? A tremendo… [+10492 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Jesse McKinley, Glenn Thrush",
+            "title": "Buffalo Shooting Suspect Charged With Federal Hate Crimes - The New York Times",
+            "description": "The Justice Department has charged the suspect with 26 counts of hate crimes and weapons violations. Some charges could carry the death penalty.",
+            "url": "https://www.nytimes.com/2022/06/15/nyregion/buffalo-shooting-hate-crime-charges.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/06/15/nyregion/15BUFFALO-new/15BUFFALO-new-facebookJumbo.jpg",
+            "publishedAt": "2022-06-15T16:11:42Z",
+            "content": "Finally, on the day of the attack, federal prosecutors say, he visited just hours before the shooting began and observed a healthy amount of old and young Black people in the store.\r\nThe federal comp… [+1228 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Dino Grandoni",
+            "title": "EPA warns toxic 'forever chemicals' more dangerous than once thought - The Washington Post",
+            "description": "Guidance may spur water utilities to tackle PFAS, but health advocates are still waiting for mandatory limits.",
+            "url": "https://www.washingtonpost.com/climate-environment/2022/06/15/epa-pfas-forever-chemicals/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/745MRBQKPYI6ZJ6IMG5XWO7WFA.jpg&w=1440",
+            "publishedAt": "2022-06-15T16:00:00Z",
+            "content": "Placeholder while article actions load\r\nThe Environmental Protection Agency warned Wednesday that a group of human-made chemicals found in the drinking water, cosmetics and food packaging used by mil… [+6362 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Monisha Ravisetti",
+            "title": "Building the Ultimate Milky Way Map: Here's What Scientists Have So Far - CNET",
+            "description": "Peruse strange starquake sightings, cosmic DNA secrets, all of our solar system's asteroids and so much more.",
+            "url": "https://www.cnet.com/science/space/building-the-ultimate-milky-way-map-heres-what-scientists-have-so-far/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/24ba383b8d75a4aa57c5053c92781fde6f037b5c/2022/06/14/071215c4-551a-457e-a689-32165f5bb2ca/you-are-here-pillars-1.png?auto=webp&fit=crop&height=630&width=1200",
+            "publishedAt": "2022-06-15T16:00:00Z",
+            "content": "Beyond the realm of mind-blowing spaceflight, groundbreaking satellites and stunning moon landings, the European Space Agency is focused on one crucial quest. It is simply to \"create the most accurat… [+6606 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Jason Hanna, Elizabeth Wolfe, David Williams and Paradise Afshar, CNN",
+            "title": "Parts of Yellowstone National Park may stay closed for 'substantial length of time' after severe flooding - CNN",
+            "description": "While all entrances of Yellowstone National Park are temporarily closed because flooding has damaged roads and bridges, the park's northern portion in particular may remain closed for \"a substantial length of time,\" park officials said Tuesday.",
+            "url": "https://www.cnn.com/2022/06/15/weather/yellowstone-national-park-montana-flooding-wednesday/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220614190322-01-red-lodgle-mt-flooding-0614-super-tease.jpg",
+            "publishedAt": "2022-06-15T15:59:00Z",
+            "content": "(CNN)While all entrances of Yellowstone National Park are temporarily closed because flooding has damaged roads and bridges, the park's northern portion in particular may remain closed for \"a substan… [+7535 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Medical Xpress"
+            },
+            "author": "Science X staff",
+            "title": "Black Death origin mystery solved... 675 years later - Medical Xpress",
+            "description": "A deadly pandemic with mysterious origins: it might sound like a modern headline, but scientists have spent centuries debating the source of the Black Death that devastated the medieval world.",
+            "url": "https://medicalxpress.com/news/2022-06-black-death-mystery-years.html",
+            "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2022/dna-1.jpg",
+            "publishedAt": "2022-06-15T15:21:25Z",
+            "content": "A deadly pandemic with mysterious origins: it might sound like a modern headline, but scientists have spent centuries debating the source of the Black Death that devastated the medieval world.\r\nNot a… [+4180 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "James Marson, Noemie Bisserbe and Marcus Walker",
+            "title": "Macron Says Ukraine and Russia Must Eventually Talk - The Wall Street Journal",
+            "description": "The French president’s comments underlined the view in Western European capitals that the war will ultimately need a diplomatic solution, which has raised hackles in Europe’s East.",
+            "url": "https://www.wsj.com/articles/ukrainian-troops-resist-russian-onslaught-in-the-east-11655288737",
+            "urlToImage": "https://images.wsj.net/im-564376/social",
+            "publishedAt": "2022-06-15T15:07:00Z",
+            "content": "<ul><li>Ukrainian President Volodymyr Zelensky called on the West for antimissile systems to protect civilians.</li><li>NATO defense ministers met to discuss arms supplies to Ukraine.</li><li>Differe… [+509 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge Review - IGN",
+            "description": null,
+            "url": "https://www.youtube.com/supported_browsers?next_url=https:%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DX4O7ZkBiBeU",
+            "urlToImage": null,
+            "publishedAt": "2022-06-15T15:00:17Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Daily Beast"
+            },
+            "author": "Allison Quinn",
+            "title": "'We're Coming for You': Man Given Tour of Capitol Complex by GOP Rep Showed Up During Riot the Next Day - The Daily Beast",
+            "description": "Footage shows a man outside the Capitol ahead of the riot on Jan. 6, after investigators say he had been taking pictures inside the complex during a tour a day earlier.",
+            "url": "https://www.thedailybeast.com/man-given-tour-of-capitol-complex-by-gop-rep-loudermilk-captured-yelling-threats-during-riot-report-says",
+            "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1550,w_2753,x_65,y_125/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1655304612/Screen_Shot_2022-06-15_at_10.48.57_AM_ggrpfw",
+            "publishedAt": "2022-06-15T14:53:12Z",
+            "content": "A man who took part in a tour of the U.S. Capitol complex on Jan. 5, 2021, with Rep. Barry Loudermilk (R-GA) was captured on video hurling threats at Democratic lawmakers during the insurrectionist r… [+3409 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "WHO looks into reports of monkeypox virus in semen - Reuters.com",
+            "description": "The World Health Organisation is looking into reports that the monkeypox virus is present in the semen of patients, exploring the possibility that the disease could be sexually transmitted, a WHO official said on Wednesday.",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-looks-into-reports-monkeypox-virus-semen-2022-06-15/",
+            "urlToImage": "https://www.reuters.com/resizer/VmzNyPgsWGf6Pop_jRfTg632GZM=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/ZGWRQRCGWNJE5BBTHDI4YPKJ3M.jpg",
+            "publishedAt": "2022-06-15T14:36:00Z",
+            "content": "LONDON, June 15 (Reuters) - The World Health Organisation is looking into reports that the monkeypox virus is present in the semen of patients, exploring the possibility that the disease could be sex… [+2265 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Victoria Bekiempis",
+            "title": "Elon Musk suggests he may vote for Republican Ron DeSantis in 2024 - The Guardian US",
+            "description": "World’s richest man says in tweet he is leaning towards Florida governor after voting Republican in Texas special election",
+            "url": "https://amp.theguardian.com/us-news/2022/jun/15/elon-musk-ron-desantis-president-republican-2024",
+            "urlToImage": "https://i.guim.co.uk/img/media/99830cfd0e83b75bdaa37997a4e8cd028db2c97d/0_260_3900_2340/master/3900.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6e4e4babba8d2bd8aa3b40a6ace812e3",
+            "publishedAt": "2022-06-15T14:10:00Z",
+            "content": "The tech billionaire Elon Musk said on Wednesday that he would possibly vote for Floridas Republican governor, Ron DeSantis, if he were to run in the 2024 US presidential election.\r\nThe billionaire t… [+2128 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Suspect IDd by family in fatal shooting of 2 El Monte police officers - KTLA 5",
+            "description": "Eric Spillman reports for the KTLA 5 Morning News on June  15, 2022.» Subscribe to KTLA: https://www.youtube.com/user/ktla?sub_confirmation=1KTLA has been ke...",
+            "url": "https://www.youtube.com/watch?v=nHtIgNA-JuA",
+            "urlToImage": "https://i.ytimg.com/vi/nHtIgNA-JuA/hqdefault.jpg",
+            "publishedAt": "2022-06-15T13:43:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Vjeran Pavic",
+            "title": "DJI releases RS 3, RS 3 Pro, and DJI Transmission - The Verge",
+            "description": "The RS 3 and RS 3 Pro are DJI’s latest stabilizing gimbals for filmmakers. They include neat tricks from the cinema camera it introduced last year, the Ronin 4D.",
+            "url": "https://www.theverge.com/2022/6/15/23168352/dji-new-gimbals-transmission-accessories",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/XrOttLgQWWe9r0rlGxhP2CXwymg=/0x138:1920x1143/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23627813/DJI_RS_3_Pro___Extended_carbon_fiber_axis_arm.jpg",
+            "publishedAt": "2022-06-15T13:35:00Z",
+            "content": "Filed under:\r\nThree new products from DJIs launch event\r\nImage: DJI\r\nMostly known for its drones, Chinese company DJI has been expanding its reach with offerings for filmmakers in recent years. Last … [+4780 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Neal E. Boudette, Cade Metz",
+            "title": "Self-Driving and Driver-Assist Technology Linked to Hundreds of Car Crashes - The New York Times",
+            "description": "The National Highway Traffic Safety Administration released data on 10 months of crashes involving systems like Tesla’s Autopilot. A handful of accidents turned deadly.",
+            "url": "https://www.nytimes.com/2022/06/15/business/self-driving-car-nhtsa-crash-data.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/06/15/business/15auto-safety/15auto-safety-facebookJumbo.jpg",
+            "publishedAt": "2022-06-15T13:28:54Z",
+            "content": "Dr. Cliff said NHTSA would continue to collect data on crashes involving these types of features and technologies, noting that the agency would use it as a guide in making any rules or requirements f… [+1925 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Sha Hua",
+            "title": "China’s Xi Reaffirms Support for Moscow in Call With Putin - The Wall Street Journal",
+            "description": "President Xi Jinping welcomed the “good momentum of development” between their countries but stressed that China would “independently judge” the Ukraine issue.",
+            "url": "https://www.wsj.com/articles/chinas-xi-fails-to-endorse-putin-over-ukraine-in-call-with-russian-leader-11655299293",
+            "urlToImage": "https://images.wsj.net/im-564459/social",
+            "publishedAt": "2022-06-15T13:21:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Ian Sample",
+            "title": "WHO to rename monkeypox virus to avoid discrimination - The Guardian",
+            "description": "Urgent move to change name comes after scientists call it ‘inaccurate’ and ‘stigmatising’ as virus spreads",
+            "url": "https://amp.theguardian.com/world/2022/jun/15/who-to-rename-monkeypox-virus-to-avoid-discrimination",
+            "urlToImage": null,
+            "publishedAt": "2022-06-15T13:18:00Z",
+            "content": "MonkeypoxUrgent move to change name comes after scientists call it inaccurate and stigmatising as virus spreads\r\nThe World Health Organization has said it will rename monkeypox to avoid discriminatio… [+5005 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Tom Warren",
+            "title": "Microsoft starts automatically redirecting Internet Explorer users to Edge - The Verge",
+            "description": "Microsoft is starting to redirect Internet Explorer users to Edge. It’s part of the end of support for IE, after nearly 27 years.",
+            "url": "https://www.theverge.com/2022/6/15/23168984/microsoft-internet-explorer-redirect-edge-prompt",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/cH-5pcFQaOC-WxI8Crxc-tr2tVI=/0x47:640x382/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23629835/ie9logo.jpg",
+            "publishedAt": "2022-06-15T13:00:00Z",
+            "content": "Internet Explorer is no longer supported\r\nMicrosoft will start automatically redirecting Internet Explorer users to its Edge browser over the next few months. Internet Explorer is being retired today… [+2285 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Caroline Linton, Adam Brewster, Musadiq Bidar, Aaron Navarro",
+            "title": "Primary results 2022: South Carolina, Nevada and more hold elections Tuesday - CBS News",
+            "description": "CBS News projects Russell Fry wins the Republican primary in South Carolina's 7th District, defeating incumbent Rep. Tom Rice, who voted to impeach Trump.",
+            "url": "https://www.cbsnews.com/live-updates/primary-results-2022-south-carolina-nevada-maine-north-dakota-texas-special-election/",
+            "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2022/06/15/97c56d5b-563c-44aa-b9ec-d84fefb96f84/thumbnail/1200x630/05b1ce297fa1146410ef717459b14140/fry-rice-south-carolina.jpg",
+            "publishedAt": "2022-06-15T12:56:00Z",
+            "content": "Four states held primary elections Tuesday, and in one of the most closely watched races in South Carolina, CBS News projects Russell Fry wins the 7th District Republican primary, defeating incumbent… [+6986 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BuzzFeed News"
+            },
+            "author": "Stephanie Soteriou",
+            "title": "Britney Spears Confirmed Her Brother Wasn't Invited To Her Wedding - BuzzFeed News",
+            "description": "“Do you honestly think I want my brother there?”",
+            "url": "https://www.buzzfeednews.com/article/stephaniesoteriou/britney-spears-dragged-brother-not-invited-wedding",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2022-06/15/12/enhanced/e774498b9f9d/original-1896-1655295985-9.jpg?crop=1243:650;0,14%26downsize=1250:*",
+            "publishedAt": "2022-06-15T12:41:48Z",
+            "content": null
+        }
+    ]
+}
