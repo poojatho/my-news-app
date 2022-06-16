@@ -5,58 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dde722e-cd18-44d8-afba-33794c5ea3a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_116.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_2_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__io_swagger_core_v3_swagger_integration_2_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_mongodb_bson_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_mongodb_bson_record_codec_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springdoc_springdoc_openapi_common_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springdoc_springdoc_openapi_ui_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webmvc_core_1_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_webjars_swagger_ui_3_52_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_50.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_spring_orm_5_3_20.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsapiservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/FavouriteserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/FavouriteserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/NewsMangoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/NewsMangoConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/controller/NewsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/domain/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/domain/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/exception/NewsAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/exception/NewsAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/exception/NewsNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/exception/NewsNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/repository/NewsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/repository/NewsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/service/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/service/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/java/com/stackroute/favouriteservice/service/NewsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/test/java/com/stackroute/favouriteservice/FavouriteserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/favouriteservice/src/test/java/com/stackroute/favouriteservice/FavouriteserviceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapp/src/main/java/com/stackroute/newsapp/NewsappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/src/main/java/com/stackroute/newsapp/NewsappApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../newsapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,11 +67,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/Nikhil/Desktop/New folder (2)/capstone/favouriteservice"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../favouriteservice" />
+  </component>
   <component name="RunManager">
     <configuration name="NewsapiserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stackroute.newsapiservice.NewsapiserviceApplication" />

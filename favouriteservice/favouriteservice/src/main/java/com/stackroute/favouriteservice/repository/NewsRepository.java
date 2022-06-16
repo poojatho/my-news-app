@@ -9,9 +9,9 @@ import com.stackroute.favouriteservice.domain.News;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 
-public interface NewsRepository extends MongoRepository<News, Integer>
+public interface NewsRepository extends MongoRepository<News, String>
 {
-	List<News> findByUserId(String userId);
-	
-	Optional<News> findByUserIdAndTitle(String userId, String title);
+    List<News> findByUserId(String userId);
+
+    Optional<News> findByUserIdAndTitle(String userId, String title);
 }

@@ -31,27 +31,6 @@ public class NewsappApplication implements CommandLineRunner  {
 		System.out.println("starting code");
 
 
-		//User user = new User();
-
-
-		// user.setFirstName("Sarbeswar");
-		// user.setLastName("Swain");
-		// user.setUsername("Sarbe7");
-		// user.setPassword("abcd");
-		// user.setEmail("sarbeswar1999@gmail.com");
-
-		// Role role1= new Role();
-		// role1.setRoleId(44L);
-		// role1.setRoleName("ADMIN");
-		// Set<UserRole> userRoleSet= new HashSet<>();
-		// UserRole userRole= new UserRole();
-		// userRole.setRole((role1));
-
-		// userRole.setUser(user);
-
-		// userRoleSet.add(userRole);
-		// User user1= this.userService.createUser(user,userRoleSet);
-		// System.out.println(user1);
 
 
 //		try {

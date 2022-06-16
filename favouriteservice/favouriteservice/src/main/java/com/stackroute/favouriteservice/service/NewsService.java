@@ -8,11 +8,11 @@ import com.stackroute.favouriteservice.exception.NewsNotFoundException;
 
 
 
-public interface NewsService 
+public interface NewsService
 {
-	boolean saveNews(News news) throws NewsAlreadyExistsException;
-	
-	boolean deleteNewsById(int id) throws NewsNotFoundException;
-	
-	List<News> getNews(String userId) throws NewsNotFoundException;
+    boolean saveNews(News news) throws NewsAlreadyExistsException;
+
+    boolean deleteNewsById(String id) throws NewsNotFoundException;
+
+    List<News> getNews(String userId) throws NewsNotFoundException;
 }

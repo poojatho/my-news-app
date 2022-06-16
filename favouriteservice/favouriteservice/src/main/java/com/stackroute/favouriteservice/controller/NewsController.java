@@ -28,70 +28,70 @@ import io.jsonwebtoken.Jwts;
 @RestController
 @RequestMapping(path = "/api/news")
 @CrossOrigin("*")
-public class NewsController 
+public class NewsController
 {
-	@Autowired
-	private NewsService newsService;
-	
-	public String getToken(final HttpServletRequest request) {
-		  final String authHeader = request.getHeader("authorization"); 
-		  final String token = authHeader.substring(7); 
-		  String userId =Jwts.parser().setSigningKey("secretkey").parseClaimsJws(token).getBody().getSubject();
-		  return userId;
-		
-	}
-	
-	@PostMapping
-	public ResponseEntity<?> saveNews(@RequestBody News news, HttpServletRequest request, HttpServletResponse response)
-	{
-	
-		ResponseEntity<?> responseEntity;
-		try
-		{
-		
-			//news.setUserId(this.getToken(request));
-			newsService.saveNews(news);
-			responseEntity = new ResponseEntity<News>(news,HttpStatus.CREATED);
-		}
-		catch(NewsAlreadyExistsException e)
-		{
-			responseEntity = new ResponseEntity<String>(e.getMessage(),HttpStatus.CONFLICT);
-		}
-		return responseEntity;
-	}
-	
-	@DeleteMapping("/{id}")
-	public ResponseEntity<?> deleteNews(@PathVariable int id)
-	{
-		ResponseEntity<?> responseEntity;
-		try
-		{
-			newsService.deleteNewsById(id);
-			responseEntity = new ResponseEntity<String>("News deleted successfully!",HttpStatus.OK);
-		}
-		catch(NewsNotFoundException e)
-		{
-			responseEntity = new ResponseEntity<String>(e.getMessage(),HttpStatus.NOT_FOUND);
-		}
-		
-		return responseEntity;
-	}
-	
+    @Autowired
+    private NewsService newsService;
 
-	
-	@GetMapping("/{userName}")
-	public ResponseEntity<?> getMyFavouriteNews(@PathVariable("userName") String userName, HttpServletRequest request, HttpServletResponse response)
-	{
-		ResponseEntity<?> responseEntity;
-		try
-		{
-			List<News> newsList = newsService.getNews(userName);
-			responseEntity = new ResponseEntity<List<News>>(newsList,HttpStatus.OK);
-		}
-		catch(NewsNotFoundException e)
-		{
-			responseEntity = new ResponseEntity<String>(e.getMessage(),HttpStatus.NOT_FOUND);
-		}
-		return responseEntity;
-	}
+    public String getToken(final HttpServletRequest request) {
+        final String authHeader = request.getHeader("authorization");
+        final String token = authHeader.substring(7);
+        String userId =Jwts.parser().setSigningKey("secretkey").parseClaimsJws(token).getBody().getSubject();
+        return userId;
+
+    }
+
+    @PostMapping
+    public ResponseEntity<?> saveNews(@RequestBody News news, HttpServletRequest request, HttpServletResponse response)
+    {
+
+        ResponseEntity<?> responseEntity;
+        try
+        {
+
+            //news.setUserId(this.getToken(request));
+            newsService.saveNews(news);
+            responseEntity = new ResponseEntity<News>(news,HttpStatus.CREATED);
+        }
+        catch(NewsAlreadyExistsException e)
+        {
+            responseEntity = new ResponseEntity<String>(e.getMessage(),HttpStatus.CONFLICT);
+        }
+        return responseEntity;
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> deleteNews(@PathVariable String id)
+    {
+        ResponseEntity<?> responseEntity;
+        try
+        {
+            newsService.deleteNewsById(id);
+            responseEntity = new ResponseEntity<String>("News deleted successfully!",HttpStatus.OK);
+        }
+        catch(NewsNotFoundException e)
+        {
+            responseEntity = new ResponseEntity<String>(e.getMessage(),HttpStatus.NOT_FOUND);
+        }
+
+        return responseEntity;
+    }
+
+
+
+    @GetMapping("/{userName}")
+    public ResponseEntity<?> getMyFavouriteNews(@PathVariable("userName") String userName, HttpServletRequest request, HttpServletResponse response)
+    {
+        ResponseEntity<?> responseEntity;
+        try
+        {
+            List<News> newsList = newsService.getNews(userName);
+            responseEntity = new ResponseEntity<List<News>>(newsList,HttpStatus.OK);
+        }
+        catch(NewsNotFoundException e)
+        {
+            responseEntity = new ResponseEntity<String>(e.getMessage(),HttpStatus.NOT_FOUND);
+        }
+        return responseEntity;
+    }
 }

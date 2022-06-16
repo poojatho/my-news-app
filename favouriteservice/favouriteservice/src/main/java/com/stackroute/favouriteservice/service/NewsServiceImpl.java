@@ -16,42 +16,42 @@ import com.stackroute.favouriteservice.repository.NewsRepository;
 @Service
 public class NewsServiceImpl implements NewsService
 {
-	@Autowired
-	private NewsRepository newsRepository;
+    @Autowired
+    private NewsRepository newsRepository;
 
-	@Override
-	public boolean saveNews(News news) throws NewsAlreadyExistsException
-	{
+    @Override
+    public boolean saveNews(News news) throws NewsAlreadyExistsException
+    {
 
-		Optional<News> checkNews = newsRepository.findByUserIdAndTitle(news.getUserId(), news.getTitle());
-		
-		if(checkNews.isPresent())
-			throw new NewsAlreadyExistsException("News already exists");
-		
-		newsRepository.save(news);
-		return true;
-	}
-	
-	@Override
-	public boolean deleteNewsById(int id) throws NewsNotFoundException
-	{
-		News news = newsRepository.findById(id).orElse(null);
-		if(news == null) {
-			throw new NewsNotFoundException("News not found!");
-		}
-		
-		newsRepository.delete(news);
-		return true;
-	}
-	
+        Optional<News> checkNews = newsRepository.findByUserIdAndTitle(news.getUserId(), news.getTitle());
 
-	
-	@Override
-	public List<News> getNews(String userId) throws NewsNotFoundException
-	{
-		List<News> newsList = (List<News>) newsRepository.findByUserId(userId);
-		if(newsList.size()==0)
-			throw new NewsNotFoundException("News not found!");
-		return newsList;
-	}
+        if(checkNews.isPresent())
+            throw new NewsAlreadyExistsException("News already exists");
+
+        newsRepository.save(news);
+        return true;
+    }
+
+    @Override
+    public boolean deleteNewsById(String id) throws NewsNotFoundException
+    {
+        News news = newsRepository.findById(id).orElse(null);
+        if(news == null) {
+            throw new NewsNotFoundException("News not found!");
+        }
+
+        newsRepository.delete(news);
+        return true;
+    }
+
+
+
+    @Override
+    public List<News> getNews(String userId) throws NewsNotFoundException
+    {
+        List<News> newsList = (List<News>) newsRepository.findByUserId(userId);
+        if(newsList.size()==0)
+            throw new NewsNotFoundException("News not found!");
+        return newsList;
+    }
 }

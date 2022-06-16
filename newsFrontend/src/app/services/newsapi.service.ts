@@ -44,7 +44,7 @@ export class NewsapiService {
     return this._http.post(`${this.url}`, data)
   }
   
-  deleteFavourite(id:number){
+  deleteFavourite(id:string){
     return this._http.delete(`${this.url}/${id}`)
 
   }
