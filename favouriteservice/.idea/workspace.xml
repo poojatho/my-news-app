@@ -5,34 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589a4f44-8676-4696-b71c-4ea635f987f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../newsapiservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/FavouriteserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/FavouriteserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/NewsMangoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/NewsMangoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/domain/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/domain/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/exception/NewsAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/exception/NewsAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/exception/NewsNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/exception/NewsNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/repository/NewsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/repository/NewsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/service/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/service/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/java/com/stackroute/favouriteservice/service/NewsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favouriteservice/src/test/java/com/stackroute/favouriteservice/FavouriteserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/favouriteservice/src/test/java/com/stackroute/favouriteservice/FavouriteserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsFrontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../newsFrontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsFrontend/src/app/guard/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../newsFrontend/src/app/guard/auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsFrontend/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../newsFrontend/src/app/pages/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsFrontend/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../newsFrontend/src/app/pages/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsFrontend/src/app/pages/signup/signup.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../newsFrontend/src/app/pages/signup/signup.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapiservice/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../newsapiservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapiservice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../newsapp/src/main/java/com/stackroute/newsapp/NewsappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/src/main/java/com/stackroute/newsapp/NewsappApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../newsapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapiservice/newsapiservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapiservice/newsapiservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapp/src/test/java/com/stackroute/newsapp/NewsappApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/src/test/java/com/stackroute/newsapp/NewsappApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,5 +87,16 @@
       <updated>1655390290085</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

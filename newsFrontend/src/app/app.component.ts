@@ -17,7 +17,7 @@ export class AppComponent {
       this.userService.getLoggedinUser(token, username).subscribe({
         next: () => {
           this.userService.token = token;
-          this.router.navigateByUrl("/")
+          // this.router.initialNavigation()
         },
         error: () => {
 

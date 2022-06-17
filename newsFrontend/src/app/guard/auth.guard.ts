@@ -18,7 +18,9 @@ return  this.userService.isSignedIn.pipe(
       tap(user=> {
         console.log(user)
         if(!user) {
-          this.router.navigateByUrl("/login")
+          this.router.navigate(["login"], {queryParams:{
+            redirectURL: state.url
+          }})
         }
       })
     )

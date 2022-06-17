@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Router } from '@angular/router';
+import { ActivatedRoute, ActivatedRouteSnapshot, Router } from '@angular/router';
 import { UserService } from 'src/app/services/user.service';
 import Swal from 'sweetalert2';
 
@@ -13,7 +13,30 @@ import Swal from 'sweetalert2';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private userService:UserService, private snack:MatSnackBar, private router:Router) { }
+  constructor(private userService:UserService, private snack:MatSnackBar, private router:Router, private route: ActivatedRoute) {
+    const {username, token} = localStorage
+    console.log(username, token)
+    if(username && token) {
+
+      this.userService.getLoggedinUser(token, username).subscribe({
+        next: () => {
+          this.userService.token = token;
+          // this.router.navigateByUrl("/")
+          const params = this.route.snapshot.queryParams;
+          const redirectURL = params["redirectURL"]
+          console.log(params)
+          if(redirectURL){
+            this.router.navigateByUrl(redirectURL)
+          } else {
+            this.router.navigateByUrl("/")
+          }
+        },
+        error: () => {
+
+        }
+      })
+    }
+   }
 
   public user={
     username: '',
