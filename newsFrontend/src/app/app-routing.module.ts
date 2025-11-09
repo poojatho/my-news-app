@@ -12,14 +12,14 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
     pathMatch:'full',
-    canActivate:[AuthGuard]
+  //  canActivate:[AuthGuard]
   },
 
   {
     path: 'favourites',
     component: FavouritesComponent,
     pathMatch:'full',
-    canActivate:[AuthGuard]
+  //  canActivate:[AuthGuard]
   },
   // {
   //   path: 'tech',
@@ -43,6 +43,11 @@ const routes: Routes = [
     path:":category",
     component: HomeComponent,
     canActivate:[AuthGuard]
+  },
+  {
+    path:":home",
+    component: HomeComponent,
+  //  canActivate:[AuthGuard]
   }
 ];
 

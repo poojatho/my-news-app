@@ -14,7 +14,7 @@
 
 
 <div class="container-fluid" style="margin-top: 20px;">
-    <h1 class="text-center text-info text-capitalize">{{category ?? "Top"}} Headlines</h1>
+    <h1 class="text-center text-info text-capitalize">{{category ?? "TOP"}} HEADLINES</h1>
     <div class="row" style="margin-top: 20px;">
         <div *ngFor="let newsData of topHeadlinesData" class="col-lg-3" style="margin-top: 20px; margin-bottom: 20px;" >
             <div class="box">
@@ -23,8 +23,11 @@
             <p>{{newsData.content}}</p>
         <!--    <h3>{{newsData.author}}</h3>   -->
         <div class="d-flex justify-content-between">
-            <a class="btn btn-dark btn-sm" target="_blank" href="{{newsData.url}}">Read More</a>
-            <button class="btn btn-dark btn-sm" (click)="addFavourite(newsData)">Add to Fav</button>
+            <!-- <a class="btn btn-dark btn-sm" target="_blank" href="{{newsData.url}}">Read More</a> -->
+            <a color="primary" target="_blank" href="{{newsData.url}}">Read More....</a>
+            <button mat-icon-button color="warn" class="btn btn-sm" (click)="addFavourite(newsData)">
+                <mat-icon matTooltip="Add To favourites">favorite_outlined</mat-icon>
+            </button>
         </div>
             
         </div>

@@ -76,7 +76,7 @@ export class LoginComponent implements OnInit {
         console.log(data);
         //alert('success');
         this.userService.getLoggedinUser(data.token, this.user.username).subscribe({next: (data)=>{
-          this.router.navigateByUrl("/")
+          this.router.navigateByUrl("/home")
         }})
         //Swal.fire('Successfully done!!', 'User is signed in','success')
       },

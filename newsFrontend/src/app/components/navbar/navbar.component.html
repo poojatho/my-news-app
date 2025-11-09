@@ -41,9 +41,12 @@
   </button> -->
 <!-- </mat-toolbar> -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="/">NewsApp</a>
+    <a class="navbar-brand" routerLink="/">
+      <img src="../../../assets/logo.png" height="50px" width="50px">
+      NewsApp
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -61,19 +64,19 @@
           <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="technology">TechNews</a>
+          <a class="nav-link" routerLink="TECHNOLOGY">TechNews</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="business">Business</a>
+          <a class="nav-link" routerLink="BUSINESS">Business</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="sports">Sports</a>
+          <a class="nav-link" routerLink="SPORTS">Sports</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="science">Science</a>
+          <a class="nav-link" routerLink="SCIENCE">Science</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="entertainment">Entertainment</a>
+          <a class="nav-link" routerLink="ENTERTAINMENT">Entertainment</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/favourites">Favourite</a>
@@ -88,9 +91,9 @@
         </div>
 
         <div *ngIf="user" class="d-flex" style="gap: 10px">
-          <a class="nav-item btn btn-secondary">{{ user.firstName }}</a>
-          <button class="nav-item btn btn-danger" (click)="logout()">
-            Logout
+          <a matTooltip="User Account" class="nav-item btn btn-secondary">{{ user.firstName }}</a>
+          <button mat-icon-button class="nav-item btn-danger" (click)="logout()">
+            <mat-icon matTooltip=" Logout ">logout</mat-icon> 
           </button>
         </div>
       </div>

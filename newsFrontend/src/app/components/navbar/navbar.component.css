@@ -11,6 +11,22 @@
     padding:16px;
     text-align:center;
   }
+  /* .mat-icon{
+    border-radius: 20px;
+    width: fit-content;
+    position: relative;
+  } */
+  .navbar-brand{
+    font-family:cursive;
+  }
+  .navbar{
+    height: 70px;
+    /* background-color: black; */
+    background: rgb(6, 185, 185);
+  }
+  .btn{
+    border-radius: 20px;
+  }
   /* .content{
     height:calc(100vh-98px);
     margin: 16px;

@@ -17,6 +17,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { HomeComponent } from './pages/home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {from} from 'rxjs';
 import { ProfileComponent } from './pages/profile/profile.component';
@@ -53,6 +54,7 @@ import { FavouritesComponent } from './pages/favourites/favourites.component';
     MatSnackBarModule,
     MatCardModule,
     MatIconModule,
+    MatTooltipModule,
     MatToolbarModule,
     MatSidenavModule,
     MatDividerModule,

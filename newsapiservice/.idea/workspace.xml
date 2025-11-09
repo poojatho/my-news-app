@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0dde722e-cd18-44d8-afba-33794c5ea3a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../favouriteservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../favouriteservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsFrontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../newsFrontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +45,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../favouriteservice" />
   </component>

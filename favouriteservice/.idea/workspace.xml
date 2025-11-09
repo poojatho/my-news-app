@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="589a4f44-8676-4696-b71c-4ea635f987f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsFrontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../newsFrontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapiservice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapiservice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../newsapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
-  <component name="RunManager" selected="JUnit.NewsControllerTest">
+  <component name="RunManager" selected="Application.FavouriteserviceApplication">
     <configuration name="FavouriteserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stackroute.favouriteservice.FavouriteserviceApplication" />
       <module name="favouriteservice" />
@@ -125,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FavouriteserviceApplication" />
         <item itemvalue="JUnit.NewsControllerTest" />
         <item itemvalue="JUnit.NewsServiceTest" />
         <item itemvalue="JUnit.FavouriteserviceApplicationTests" />
-        <item itemvalue="Application.FavouriteserviceApplication" />
         <item itemvalue="JUnit.NewsControllerTest.testDelete" />
       </list>
     </recent_temporary>
